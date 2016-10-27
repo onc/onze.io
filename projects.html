@@ -6,9 +6,21 @@ permalink: /projects/
 <ul class="project-list">
   {% for project in site.projects %}
   <li>
-    <h2>
-      <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-    </h2>
+    <header class="project-header">
+      <h2 class="project-title">
+        <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+      </h2>
+
+      {% if project.github %}
+      <span class="project-link">
+        {% include icon-github.html username=project.github %}
+      </span>
+      {% endif %}
+    </header>
+
+    <div class="project-description">
+      {{ project.description }}
+    </div>
   </li>
   {% endfor %}
 </ul>
