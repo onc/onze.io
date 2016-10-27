@@ -61,3 +61,18 @@
         font-size: $small-font-size;
     }
 }
+
+.project {
+
+    .project-header {
+        margin-bottom: $small-spacing-unit;
+
+        .project-title {
+            display: inline;
+        }
+
+        .project-link {
+            margin-left: $spacing-unit;
+        }
+    }
+}
