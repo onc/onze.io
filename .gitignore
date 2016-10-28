@@ -1,4 +1,9 @@
 .tern-port
+
+# ignore font-awesome
+_sass/font-awesome/
+assets/fonts/
+
 ### Jekyll ###
 _site/
 .sass-cache/

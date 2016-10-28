@@ -3,6 +3,19 @@
     margin-bottom: $spacing-unit * 2;
 }
 
+a > i.fa {
+    color: $grey-color;
+}
+
+.site-header {
+
+    #avatar-hexagon {
+        width: $spacing-unit * 8;
+        margin: 0 auto;
+        margin-top: $spacing-unit * 2;
+    }
+}
+
 .site-title {
     display: block;
     text-align: center;
@@ -29,11 +42,6 @@
     }
 }
 
-#avatar-hexagon {
-    width: $spacing-unit * 6;
-    margin: 0 auto;
-    margin-top: $spacing-unit * 2;
-}
 
 .site-footer {
     position: fixed;
