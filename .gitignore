@@ -2,8 +2,8 @@
 .DS_Store
 
 # ignore font-awesome
-_sass/font-awesome/
-assets/fonts/
+#_sass/font-awesome/
+#assets/fonts/
 
 ### Jekyll ###
 _site/
