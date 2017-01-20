@@ -36,7 +36,7 @@ a > i.fa {
     text-align: center;
     margin: $small-spacing-unit;
 
-    a {
+    .page-link {
         font-size: $base-font-size;
         margin: $small-spacing-unit;
     }
@@ -90,7 +90,16 @@ a > i.fa {
         }
     }
 
-    .project-link {
-        margin-left: $spacing-unit;
+    .project-repo-link {
+        margin-left: $small-spacing-unit;
+
+    }
+}
+
+#not-found {
+    h1 {
+        text-align: center;
+        margin-top: $small-spacing-unit;
+
     }
 }

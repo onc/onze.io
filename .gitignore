@@ -1,4 +1,5 @@
 .tern-port
+.DS_Store
 
 # ignore font-awesome
 _sass/font-awesome/
