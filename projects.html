@@ -11,9 +11,9 @@ permalink: /projects/
         <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
       </h2>
 
-      {% if project.github %}
+      {% if project.git_url %}
       <span class="project-repo-link">
-        {% include icon-github.html username=project.github %}
+        {% include icon-git.html git_url=project.git_url %}
       </span>
       {% endif %}
     </header>
