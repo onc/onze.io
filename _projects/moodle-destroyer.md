@@ -1,7 +1,7 @@
 ---
 layout: project
-title:  "moodle-destroyer.el"
-github: manly-man/moodle-destroyer.el
+title: "moodle-destroyer.el"
+git_url: github.com/manly-man/moodle-destroyer.el
 description: "Emacs plugin for moodle-destroyer-tools"
 ---
 Moodle provides a really bad interface for grading many assignments.
