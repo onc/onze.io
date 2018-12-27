@@ -101,7 +101,10 @@ a > i.fa {
 }
 
 .photo {
-    padding: $spacing-unit;
+    padding-left: $spacing-unit;
+    padding-right: $spacing-unit;
+    padding-top: $spacing-unit - $small-spacing-unit;
+    padding-bottom: $spacing-unit - $small-spacing-unit;
 }
 
 #not-found {
