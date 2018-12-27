@@ -57,6 +57,10 @@ a > i.fa {
         li {
             margin: $small-spacing-unit;
             display: inline;
+
+            a {
+                display: inline-block;
+            }
         }
     }
 }
