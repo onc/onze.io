@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "base16-onc-scheme"
-git_url: git.onze.io/onze/base16-onc-theme
+git_url: github.com/onc/base16-onc-scheme
 description: "Custom base16 colorscheme based on the dark base16 google colorscheme."
 ---
 My custom colorscheme based on the dark base16 google colorscheme.
