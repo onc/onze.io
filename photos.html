@@ -1,0 +1,57 @@
+---
+layout: photo-gallery
+title: Photos
+permalink: /photos/
+photoswipe: true
+---
+
+<div id="tag-list">
+  <div class="wrapper">
+    {% for photo in site.data.photos %}
+      {% assign tags = tags | concat: photo.tags %}
+    {% endfor %}
+    {% assign tags = tags | uniq %}
+
+    {% for tag in tags %}
+      <span class="tag" data-uid="{{ tag }}">#{{ tag }}</span>
+    {% endfor %}
+  </div>
+</div>
+
+<div id="gallery">
+  {% for photo in site.data.photos %}
+  {% assign index = forloop.index %}
+  <div
+    class="photo"
+    data-full-size="{{ photo.fullsize.path }}"
+    data-uid="{{ index }}"
+    data-title="{{ photo.title }}"
+    data-tags="{{ photo.tags | join: ',' }}"
+  >
+    <figure>
+      <img src="{{ photo.thumbnail.path | prepend: site.baseurl }}">
+    </figure>
+  </div>
+  {% endfor %}
+</div>
+
+<div id="photo-detail"> 
+  <div class="buttons">
+    <div id="prev">
+      <i><</i>
+    </div>
+    <div id="next">
+      <i>></i>
+    </div>
+    <div id="close">
+      <i>x</i>
+    </div>
+  </div>
+
+  <div class="detail-wrapper">
+    <figure>
+      <img id="detail-img">
+      <figcaption><p id="detail-caption"></p></figcaption>
+    </figure>
+  </div>
+</div>

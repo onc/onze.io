@@ -17,6 +17,8 @@ $small-spacing-unit:   $spacing-unit / 2.0;
 $text-color:           #111;
 $background-color:     #fdfdfd;
 $brand-color:          #2a7ae2;
+$green-color:          #1B512D;
+$purple-color:         #5E239D;
 
 $grey-color:           #828282;
 $grey-color-light:     lighten($grey-color, 40%);
@@ -29,15 +31,16 @@ $on-palm:              600px;
 $on-laptop:            800px;
 
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting",
-        "font-awesome/font-awesome"
+  "base",
+  "photo-gallery",
+  "layout",
+  "syntax-highlighting",
+  "font-awesome/font-awesome"
 ;

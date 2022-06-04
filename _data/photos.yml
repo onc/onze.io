@@ -1,0 +1,71 @@
+- title: bla
+  fullsize:
+    path: /assets/photos/000016.jpg
+  thumbnail:
+    path: /assets/photos/000016-thumb.jpg
+  tags:
+    - Portra400
+    - OlympusOM1
+
+- title: blub
+  fullsize:
+    path: /assets/photos/000017.jpg
+  thumbnail:
+    path: /assets/photos/000017-thumb.jpg
+  tags:
+    - KodakGold
+    - Mamiya645
+
+- title: blub
+  fullsize:
+    path: /assets/photos/000019.jpg
+  thumbnail:
+    path: /assets/photos/000019-thumb.jpg
+  tags:
+    - Portra400
+    - Mamiya645
+
+- title: bla
+  fullsize:
+    path: /assets/photos/000025.jpg
+  thumbnail:
+    path: /assets/photos/000025-thumb.jpg
+  tags:
+    - KodakGold
+    - OlympusOM1
+
+- title: blub
+  fullsize:
+    path: /assets/photos/000030.jpg
+  thumbnail:
+    path: /assets/photos/000030-thumb.jpg
+  tags:
+    - Portra400
+    - Mamiya645
+
+- title: bla
+  fullsize:
+    path: /assets/photos/000016.jpg
+  thumbnail:
+    path: /assets/photos/000016-thumb.jpg
+  tags:
+    - KodakGold
+    - OlympusOM1
+
+- title: blub
+  fullsize:
+    path: /assets/photos/000017.jpg
+  thumbnail:
+    path: /assets/photos/000017-thumb.jpg
+  tags:
+    - Portra400
+    - OlympusOM1
+
+- title: blub
+  fullsize:
+    path: /assets/photos/000019.jpg
+  thumbnail:
+    path: /assets/photos/000019-thumb.jpg
+  tags:
+    - Portra400
+    - OlympusOM1

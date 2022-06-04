@@ -1,0 +1,275 @@
+#tag-list {
+  width: 100%;
+  margin-bottom: $spacing-unit;
+
+  div {
+    text-align: center;
+
+    .tag {
+      margin-left: $small-spacing-unit;
+      margin-right: $small-spacing-unit;
+      color: $brand-color;
+      padding: 8px;
+      border-radius: 16px;
+      
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .active {
+      background-color: $grey-color-light;
+    }
+  }
+}
+
+#photo-detail {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.92);
+  z-index: 10;
+  display: none;
+
+  .buttons {
+    div {
+      position: fixed;
+      top: -webkit-calc(50% - #{$big-font-size});
+      top: -moz-calc(50% - #{$big-font-size});
+      top: calc(50% - #{$big-font-size});
+      
+      i {
+        font-size: $big-font-size;
+        font-weight: 300;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    
+    #prev {
+      left: $small-spacing-unit;
+    }
+
+    #next {
+      right: $small-spacing-unit;
+    }
+
+    #close {
+      top: $small-spacing-unit;
+      left: $small-spacing-unit;
+      line-height: $small-spacing-unit;
+    }
+  }
+
+  .detail-wrapper {
+    // 4 -> 2 * because of left, right/ 2 * because space to arrows left and right
+    width: -webkit-calc(100% - (4.0 * #{$spacing-unit}));
+    width: -moz-calc(100% - (4.0 * #{$spacing-unit}));
+    width: calc(100% - (4.0 * #{$spacing-unit}));
+
+    height: -webkit-calc(100%
+      - (2 * #{$spacing-unit}) 
+      - (2 * #{$small-spacing-unit}) 
+      - (#{$base-font-size} * #{$base-line-height})
+    );
+    height: -moz-calc(100%
+      - (2 * #{$spacing-unit}) 
+      - (2 * #{$small-spacing-unit}) 
+      - (#{$base-font-size} * #{$base-line-height})
+    );
+    height: calc(100% 
+      - (2 * #{$spacing-unit}) 
+      - (2 * #{$small-spacing-unit}) 
+      - (#{$base-font-size} * #{$base-line-height})
+    );
+    margin: $spacing-unit auto;
+
+    figure {
+      width: 100%;
+      height: 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      figcaption {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background: $grey-color-light;
+
+        p {
+          margin-bottom: $small-spacing-unit;
+          margin-top: $small-spacing-unit;
+          text-align: center;
+          font-size: $base-font-size;
+          line-height: $base-line-height;
+
+          a {
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#gallery {
+  --items: 3;
+  --width: 960px;
+  display: grid;
+  grid-template-columns: repeat(var(--items), 1fr);
+  width: var(--width);
+  margin: 0 auto;
+  overflow: hidden;
+
+  @media only screen and (max-width: 1080px) {
+    --width: 720px;
+   }
+
+  @media only screen and (max-width: 900px) {
+    --width: 600px;
+  }
+
+  @media only screen and (max-width: 700px) {
+    --width: 520px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    --width: 380px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    --width: 300px;
+  }
+
+  .photo {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: -webkit-calc(var(--width) / var(--items));
+    width: -moz-calc(var(--width) / var(--items));
+    width: calc(var(--width) / var(--items));
+    // To keep it square
+    height: -webkit-calc(var(--width) / var(--items)); 
+    height: -moz-calc(var(--width) / var(--items)); 
+    height: calc(var(--width) / var(--items)); 
+
+    figure {
+      width: -webkit-calc(100% - #{$small-spacing-unit});
+      width: -moz-calc(100% - #{$small-spacing-unit});
+      width: calc(100% - #{$small-spacing-unit});
+      height: -webkit-calc(100% - #{$small-spacing-unit});
+      height: -moz-calc(100% - #{$small-spacing-unit});
+      height: calc(100% - #{$small-spacing-unit});
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      figcaption {
+        display: none;
+      }
+    }
+  }
+}
+
+
+// .gallery {
+//   display: flex;
+//   flex-wrap: wrap;
+//   margin: 1em auto;
+// 
+//   a.square {
+//     position: relative;
+//     background-color: green;
+//     flex: 1 0 calc(33% - 10px);
+//     margin: 5px;
+// 
+//     &::after {
+//       content: "";
+//       display: block;
+//       padding-bottom: 100%;
+//     }
+// 
+//     figure {
+//       width: 100%;
+//       height: 100%;
+//       margin: 0;
+//       background-repeat: no-repeat;
+//       background-size: contain;
+//       background-position: center;
+// 
+//       figcaption {
+//         display: none;
+//       }
+//     }
+//   }
+// }
+
+
+
+
+
+
+
+// div.gallery {
+//   padding: 2px;
+//   background-color: #ffffff;
+//   width: 100%;
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+// 
+//   .photo {
+//      position: relative;
+//      flex-grow: 1; //They will fill space but actually want to take up the smallest space possible doing it, so you just need to stop it getting too small with min-width (otherwise they all bunch on the same line)
+//      min-width: calc(100% / 3); //This is the maximum number (3) in a row bit
+//      background-size: cover;
+//      background-position: center;
+//      padding: 0;
+//      
+//      @media screen and (max-width: 600px) {
+//         min-width: calc(100% / 2); //As simple as this for responsiveness without a delay you would get with JavaScript
+//       }
+// 
+//      @media screen and (max-width: 460px) {
+//         min-width: 100%;
+//      }
+// 
+//      &:after {
+//         //Aspect Ratio
+//         padding-top: 66.66667%; //For 2:3 height to width ratio
+//         display: block;
+//         content: "";
+//      }
+// 
+//      &:before {
+//         //Gaps
+//         z-index: 2;
+//         position: absolute;
+//         content: "";
+//         top: 0px;
+//         right: 0px;
+//         bottom: 0px;
+//         left: 0px;
+//         box-shadow: inset 0 0 0 2px #ffffff; //Cheaty way to make it look like there are gaps 😜
+//      }
+//   }
+// 
+//   &.square .photo:after {
+//      padding-top: 100%;
+//   }
+//   &.portrait .photo:after {
+//      padding-top: 120%;
+//   }
+// }

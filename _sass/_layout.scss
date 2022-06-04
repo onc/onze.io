@@ -1,116 +1,114 @@
 .page-content {
-    // margin-bottom because of the footer
-    margin-bottom: $spacing-unit * 2;
+  // margin-bottom because of the footer
+  margin-bottom: $spacing-unit * 2;
 }
 
 a > i.fa {
-    color: $grey-color;
+  color: $grey-color;
 }
 
 .site-header {
-
-    #avatar-hexagon {
-        width: $spacing-unit * 8;
-        margin: 0 auto;
-        margin-top: $spacing-unit * 2;
-    }
+  #avatar-hexagon {
+    width: $spacing-unit * 8;
+    margin: 0 auto;
+    margin-top: $spacing-unit * 2;
+  }
 }
 
 .site-title {
-    display: block;
-    text-align: center;
-    margin-top: $spacing-unit;
-    font-size: $big-font-size;
+  display: block;
+  text-align: center;
+  margin-top: $spacing-unit;
+  font-size: $big-font-size;
+  color: $text-color;
+
+  &:visited {
     color: $text-color;
+  }
 
-    &:visited {
-        color: $text-color;
-    }
-
-    &:hover {
-        text-decoration: none;
-    }
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .site-nav {
-    text-align: center;
-    margin: $small-spacing-unit;
+  text-align: center;
+  margin: $small-spacing-unit;
 
-    .page-link {
-        font-size: $base-font-size;
-        margin: $small-spacing-unit;
-    }
+  .page-link {
+    font-size: $base-font-size;
+    margin: $small-spacing-unit;
+  }
 }
 
 
 .site-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    background: $grey-color-light;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background: $grey-color-light;
 
-    .contact-list {
-        text-align: center;
-        margin-bottom: $small-spacing-unit;
-        margin-top: $small-spacing-unit;
+  .contact-list {
+    text-align: center;
+    margin-bottom: $small-spacing-unit;
+    margin-top: $small-spacing-unit;
 
-        li {
-            margin: $small-spacing-unit;
-            display: inline;
+    li {
+      margin: $small-spacing-unit;
+      display: inline;
 
-            a {
-                display: inline-block;
-            }
-        }
+      a {
+        display: inline-block;
+      }
     }
+  }
 }
 
 .post-list {
-    list-style: none;
-    margin: 0;
+  list-style: none;
+  margin: 0;
 
-    .post-meta {
-        font-size: $small-font-size;
-    }
+  .post-meta {
+    font-size: $small-font-size;
+  }
 }
 
 .project-list {
-    list-style: none;
-    margin: 0;
+  list-style: none;
+  margin: 0;
 
-    .project-description {
-        margin-bottom: $spacing-unit;
-    }
+  .project-description {
+    margin-bottom: $spacing-unit;
+  }
 }
 
 .project-header {
-    margin-bottom: $small-spacing-unit;
+  margin-bottom: $small-spacing-unit;
 
-    .project-title {
-        display: inline;
+  .project-title {
+    display: inline;
 
-        a {
-            margin: 0;
-        }
+    a {
+      margin: 0;
     }
+  }
 
-    .project-repo-link {
-        margin-left: $small-spacing-unit;
+  .project-repo-link {
+    margin-left: $small-spacing-unit;
 
-    }
+  }
 }
 
 .photo {
-    padding-left: $spacing-unit;
-    padding-right: $spacing-unit;
-    padding-top: $spacing-unit - $small-spacing-unit;
-    padding-bottom: $spacing-unit - $small-spacing-unit;
+  padding-left: $spacing-unit;
+  padding-right: $spacing-unit;
+  padding-top: $spacing-unit - $small-spacing-unit;
+  padding-bottom: $spacing-unit - $small-spacing-unit;
 }
 
 #not-found {
-    h1 {
-        text-align: center;
-        margin-top: $small-spacing-unit;
-
-    }
+  h1 {
+    text-align: center;
+    margin-top: $small-spacing-unit;
+  }
 }
