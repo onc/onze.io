@@ -1,71 +1,431 @@
-- title: bla
-  fullsize:
-    path: /assets/photos/000016.jpg
-  thumbnail:
-    path: /assets/photos/000016-thumb.jpg
+- thumbnail: /assets/photos/2021-02-Ulm-HP5-35DC-000010-thumb.jpg
+  fullsize: /assets/photos/2021-02-Ulm-HP5-35DC-000010.jpg
+  date: 2021-02
   tags:
+    - Ulm
+    - IllfordHP5
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-02-Ulm-P400-OM1-000021-thumb.jpg
+  fullsize: /assets/photos/2021-02-Ulm-P400-OM1-000021.jpg
+  date: 2021-02
+  tags:
+    - Ulm
     - Portra400
     - OlympusOM1
+    - 35mm
 
-- title: blub
-  fullsize:
-    path: /assets/photos/000017.jpg
-  thumbnail:
-    path: /assets/photos/000017-thumb.jpg
+- thumbnail: /assets/photos/2021-06-Sylt-E100-35DC-000011-thumb.jpg
+  fullsize: /assets/photos/2021-06-Sylt-E100-35DC-000011.jpg
+  date: 2021-06
   tags:
-    - KodakGold
+    - Sylt
+    - Ektar100
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-06-Sylt-P400-35DC-000025-thumb.jpg
+  fullsize: /assets/photos/2021-06-Sylt-P400-35DC-000025.jpg
+  date: 2021-06
+  tags:
+    - Sylt
+    - Portra400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-06-Sylt-P400-35DC-000031-thumb.jpg
+  fullsize: /assets/photos/2021-06-Sylt-P400-35DC-000031.jpg
+  date: 2021-06
+  tags:
+    - Sylt
+    - Portra400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-06-Sylt-P400-35DC-000033-thumb.jpg
+  fullsize: /assets/photos/2021-06-Sylt-P400-35DC-000033.jpg
+  date: 2021-06
+  tags:
+    - Sylt
+    - Portra400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-06-Sylt-P400-M645-000053500010-thumb.jpg
+  fullsize: /assets/photos/2021-06-Sylt-P400-M645-000053500010.jpg
+  date: 2021-06
+  tags:
+    - Sylt
+    - Portra400
     - Mamiya645
+    - 120film
 
-- title: blub
-  fullsize:
-    path: /assets/photos/000019.jpg
-  thumbnail:
-    path: /assets/photos/000019-thumb.jpg
+- thumbnail: /assets/photos/2021-07-Ammersee-UltraMax400-35DC-000042-thumb.jpg
+  fullsize: /assets/photos/2021-07-Ammersee-UltraMax400-35DC-000042.jpg
+  date: 2021-07
   tags:
+    - Ammersee
+    - UltraMax400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-07-Ammersee-UltraMax400-35DC-000043-thumb.jpg
+  fullsize: /assets/photos/2021-07-Ammersee-UltraMax400-35DC-000043.jpg
+  date: 2021-07
+  tags:
+    - Ammersee
+    - UltraMax400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-07-Halblech-P400-35DC-000037-thumb.jpg
+  fullsize: /assets/photos/2021-07-Halblech-P400-35DC-000037.jpg
+  date: 2021-07
+  tags:
+    - Halblech
+    - Portra400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-07-Halblech-P400-35DC-000042-thumb.jpg
+  fullsize: /assets/photos/2021-07-Halblech-P400-35DC-000042.jpg
+  date: 2021-07
+  tags:
+    - Halblech
+    - Portra400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-07-Halblech-P400-35DC-Panorama-thumb.jpg
+  fullsize: /assets/photos/2021-07-Halblech-P400-35DC-Panorama.jpg
+  date: 2021-07
+  tags:
+    - Halblech
+    - Portra400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-08-Aletsch-E100-35DC-000016-thumb.jpg
+  fullsize: /assets/photos/2021-08-Aletsch-E100-35DC-000016.jpg
+  date: 2021-08
+  tags:
+    - AletschGlacier
+    - Ektar100
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-08-Aletsch-E100-35DC-000018-thumb.jpg
+  fullsize: /assets/photos/2021-08-Aletsch-E100-35DC-000018.jpg
+  date: 2021-08
+  tags:
+    - AletschGlacier
+    - Ektar100
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-08-Aletsch-UltraMax400-35DC-000033-thumb.jpg
+  fullsize: /assets/photos/2021-08-Aletsch-UltraMax400-35DC-000033.jpg
+  date: 2021-08
+  tags:
+    - AletschGlacier
+    - UltraMax400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-08-Bern-P400-35DC-000025-thumb.jpg
+  fullsize: /assets/photos/2021-08-Bern-P400-35DC-000025.jpg
+  date: 2021-08
+  tags:
+    - Bern
+    - Portra400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-08-Bern-P400-35DC-000030-thumb.jpg
+  fullsize: /assets/photos/2021-08-Bern-P400-35DC-000030.jpg
+  date: 2021-08
+  tags:
+    - Bern
+    - Portra400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-08-LakeLucerne-P400-M645-000009350013-thumb.jpg
+  fullsize: /assets/photos/2021-08-LakeLucerne-P400-M645-000009350013.jpg
+  date: 2021-08
+  tags:
+    - LakeLucerne
     - Portra400
     - Mamiya645
+    - 120film
 
-- title: bla
-  fullsize:
-    path: /assets/photos/000025.jpg
-  thumbnail:
-    path: /assets/photos/000025-thumb.jpg
+- thumbnail: /assets/photos/2021-09-LagoMaggiore-P400-35DC-000038-thumb.jpg
+  fullsize: /assets/photos/2021-09-LagoMaggiore-P400-35DC-000038.jpg
+  date: 2021-09
   tags:
-    - KodakGold
-    - OlympusOM1
+    - LagoMaggiore
+    - Portra400
+    - Olympus35DC
+    - 35mm
 
-- title: blub
-  fullsize:
-    path: /assets/photos/000030.jpg
-  thumbnail:
-    path: /assets/photos/000030-thumb.jpg
+- thumbnail: /assets/photos/2021-09-LagoMaggiore-P400-35DC-000039-thumb.jpg
+  fullsize: /assets/photos/2021-09-LagoMaggiore-P400-35DC-000039.jpg
+  date: 2021-09
   tags:
+    - LagoMaggiore
+    - Portra400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-09-LagoMaggiore-P400-M645-000035820003-thumb.jpg
+  fullsize: /assets/photos/2021-09-LagoMaggiore-P400-M645-000035820003.jpg
+  date: 2021-09
+  tags:
+    - LagoMaggiore
     - Portra400
     - Mamiya645
+    - 120film
 
-- title: bla
-  fullsize:
-    path: /assets/photos/000016.jpg
-  thumbnail:
-    path: /assets/photos/000016-thumb.jpg
+- thumbnail: /assets/photos/2021-09-LagoMaggiore-P400-M645-000035820005-thumb.jpg
+  fullsize: /assets/photos/2021-09-LagoMaggiore-P400-M645-000035820005.jpg
+  date: 2021-09
   tags:
+    - LagoMaggiore
+    - Portra400
+    - Mamiya645
+    - 120film
+
+- thumbnail: /assets/photos/2021-09-LagoMaggiore-P400-M645-000035820012-thumb.jpg
+  fullsize: /assets/photos/2021-09-LagoMaggiore-P400-M645-000035820012.jpg
+  date: 2021-09
+  tags:
+    - LagoMaggiore
+    - Portra400
+    - Mamiya645
+    - 120film
+
+- thumbnail: /assets/photos/2021-09-LagoMaggiore-P400-M645-000035820014-thumb.jpg
+  fullsize: /assets/photos/2021-09-LagoMaggiore-P400-M645-000035820014.jpg
+  date: 2021-09
+  tags:
+    - LagoMaggiore
+    - Portra400
+    - Mamiya645
+    - 120film
+
+- thumbnail: /assets/photos/2021-09-LagoMaggiore-P400-OM1-000032-thumb.jpg
+  fullsize: /assets/photos/2021-09-LagoMaggiore-P400-OM1-000032.jpg
+  date: 2021-09
+  tags:
+    - LagoMaggiore
+    - Portra400
+    - OlympusOM1
+    - 35mm
+
+- thumbnail: /assets/photos/2021-09-Mosel-HP5-35DC-000018-thumb.jpg
+  fullsize: /assets/photos/2021-09-Mosel-HP5-35DC-000018.jpg
+  date: 2021-09
+  tags:
+    - Mosel
+    - IllfordHP5
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-09-Mosel-HP5-35DC-000041-thumb.jpg
+  fullsize: /assets/photos/2021-09-Mosel-HP5-35DC-000041.jpg
+  date: 2021-09
+  tags:
+    - Mosel
+    - IllfordHP5
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-09-Mosel-P400-35DC-000010-thumb.jpg
+  fullsize: /assets/photos/2021-09-Mosel-P400-35DC-000010.jpg
+  date: 2021-09
+  tags:
+    - Mosel
+    - Portra400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-09-Mosel-P400-35DC-000043-thumb.jpg
+  fullsize: /assets/photos/2021-09-Mosel-P400-35DC-000043.jpg
+  date: 2021-09
+  tags:
+    - Mosel
+    - Portra400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2021-12-Ulm-P400-M645-000076360007-thumb.jpg
+  fullsize: /assets/photos/2021-12-Ulm-P400-M645-000076360007.jpg
+  date: 2021-12
+  tags:
+    - Ulm
+    - Portra400
+    - Mamiya645
+    - 120film
+
+- thumbnail: /assets/photos/2022-01-Hamburg-P400-35DC-000034-thumb.jpg
+  fullsize: /assets/photos/2022-01-Hamburg-P400-35DC-000034.jpg
+  date: 2022-01
+  tags:
+    - Hamburg
+    - Portra400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2022-01-Sonnenkopf-P400-35DC-000015-thumb.jpg
+  fullsize: /assets/photos/2022-01-Sonnenkopf-P400-35DC-000015.jpg
+  date: 2022-01
+  tags:
+    - Sonnenkopf
+    - Portra400
+    - Olympus35DC
+    - 35mm
+
+- thumbnail: /assets/photos/2022-01-Sonnenkopf-UltraMax400-OM1-000014-thumb.jpg
+  fullsize: /assets/photos/2022-01-Sonnenkopf-UltraMax400-OM1-000014.jpg
+  date: 2022-01
+  tags:
+    - Sonnenkopf
+    - UltraMax400
+    - OlympusOM1
+    - 35mm
+
+- thumbnail: /assets/photos/2022-01-Sonnenkopf-UltraMax400-OM1-000018-thumb.jpg
+  fullsize: /assets/photos/2022-01-Sonnenkopf-UltraMax400-OM1-000018.jpg
+  date: 2022-01
+  tags:
+    - Sonnenkopf
+    - UltraMax400
+    - OlympusOM1
+    - 35mm
+
+- thumbnail: /assets/photos/2022-03-Lofoten-E100-OM1-000022-thumb.jpg
+  fullsize: /assets/photos/2022-03-Lofoten-E100-OM1-000022.jpg
+  date: 2022-03
+  tags:
+    - Lofoten
+    - Ektar100
+    - OlympusOM1
+    - 35mm
+
+- thumbnail: /assets/photos/2022-03-Lofoten-E100-OM1-000024-thumb.jpg
+  fullsize: /assets/photos/2022-03-Lofoten-E100-OM1-000024.jpg
+  date: 2022-03
+  tags:
+    - Lofoten
+    - Ektar100
+    - OlympusOM1
+    - 35mm
+
+- thumbnail: /assets/photos/2022-03-Lofoten-E100-OM1-000037-thumb.jpg
+  fullsize: /assets/photos/2022-03-Lofoten-E100-OM1-000037.jpg
+  date: 2022-03
+  tags:
+    - Lofoten
+    - Ektar100
+    - OlympusOM1
+    - 35mm
+
+- thumbnail: /assets/photos/2022-03-Lofoten-Gold-OM1-000016-thumb.jpg
+  fullsize: /assets/photos/2022-03-Lofoten-Gold-OM1-000016.jpg
+  date: 2022-03
+  tags:
+    - Lofoten
     - KodakGold
     - OlympusOM1
+    - 35mm
 
-- title: blub
-  fullsize:
-    path: /assets/photos/000017.jpg
-  thumbnail:
-    path: /assets/photos/000017-thumb.jpg
+- thumbnail: /assets/photos/2022-03-Lofoten-Gold-OM1-000019-thumb.jpg
+  fullsize: /assets/photos/2022-03-Lofoten-Gold-OM1-000019.jpg
+  date: 2022-03
   tags:
+    - Lofoten
+    - KodakGold
+    - OlympusOM1
+    - 35mm
+
+- thumbnail: /assets/photos/2022-03-Lofoten-Gold-OM1-000025-thumb.jpg
+  fullsize: /assets/photos/2022-03-Lofoten-Gold-OM1-000025.jpg
+  date: 2022-03
+  tags:
+    - Lofoten
+    - KodakGold
+    - OlympusOM1
+    - 35mm
+
+- thumbnail: /assets/photos/2022-03-Lofoten-P400-M645-000037650002-thumb.jpg
+  fullsize: /assets/photos/2022-03-Lofoten-P400-M645-000037650002.jpg
+  date: 2022-03
+  tags:
+    - Lofoten
+    - Portra400
+    - Mamiya645
+    - 120film
+
+- thumbnail: /assets/photos/2022-03-Lofoten-P400-M645-000037650007-thumb.jpg
+  fullsize: /assets/photos/2022-03-Lofoten-P400-M645-000037650007.jpg
+  date: 2022-03
+  tags:
+    - Lofoten
+    - Portra400
+    - Mamiya645
+    - 120film
+
+- thumbnail: /assets/photos/2022-03-Lofoten-P400-M645-000037670011-thumb.jpg
+  fullsize: /assets/photos/2022-03-Lofoten-P400-M645-000037670011.jpg
+  date: 2022-03
+  tags:
+    - Lofoten
+    - Portra400
+    - Mamiya645
+    - 120film
+
+- thumbnail: /assets/photos/2022-03-Lofoten-P400-OM1-000009-thumb.jpg
+  fullsize: /assets/photos/2022-03-Lofoten-P400-OM1-000009.jpg
+  date: 2022-03
+  tags:
+    - Lofoten
     - Portra400
     - OlympusOM1
+    - 35mm
 
-- title: blub
-  fullsize:
-    path: /assets/photos/000019.jpg
-  thumbnail:
-    path: /assets/photos/000019-thumb.jpg
+- thumbnail: /assets/photos/2022-03-Lofoten-P400-OM1-000040-thumb.jpg
+  fullsize: /assets/photos/2022-03-Lofoten-P400-OM1-000040.jpg
+  date: 2022-03
   tags:
+    - Lofoten
     - Portra400
     - OlympusOM1
+    - 35mm
+
+- thumbnail: /assets/photos/2022-03-Lofoten-P400-OM1-000041-thumb.jpg
+  fullsize: /assets/photos/2022-03-Lofoten-P400-OM1-000041.jpg
+  date: 2022-03
+  tags:
+    - Lofoten
+    - Portra400
+    - OlympusOM1
+    - 35mm
+
+- thumbnail: /assets/photos/2022-03-Lofoten-Pro400H-M645-000037660010-thumb.jpg
+  fullsize: /assets/photos/2022-03-Lofoten-Pro400H-M645-000037660010.jpg
+  date: 2022-03
+  tags:
+    - Lofoten
+    - FujiPro400H
+    - Mamiya645
+    - 120film
+
+- thumbnail: /assets/photos/2022-03-Lofoten-Pro400H-M645-000037660015-thumb.jpg
+  fullsize: /assets/photos/2022-03-Lofoten-Pro400H-M645-000037660015.jpg
+  date: 2022-03
+  tags:
+    - Lofoten
+    - FujiPro400H
+    - Mamiya645
+    - 120film
