@@ -9,7 +9,7 @@ const main = () => {
       return;
     }
     const path = photo.getAttribute('data-full-size');
-    const title = photo.getAttribute('data-title');
+    const date = photo.getAttribute('data-date');
     const tags = photo.getAttribute('data-tags').split(',');
 
     const detailElement = document.querySelector(DETAIL_SELECTOR);
@@ -22,7 +22,7 @@ const main = () => {
       const tagList = tags.map((tag) => {
         return `<a href="?tags=${tag}">#${tag}</a>`
       }).join('');
-      captionElement.innerHTML = `${title} - ${tagList}`
+      captionElement.innerHTML = `${date} // ${tagList}`
       detailElement.style.display = 'block';
     }
 

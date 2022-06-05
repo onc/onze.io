@@ -6,11 +6,10 @@
     text-align: center;
 
     .tag {
-      margin-left: $small-spacing-unit;
-      margin-right: $small-spacing-unit;
       color: $brand-color;
-      padding: 8px;
+      padding: 4px;
       border-radius: 16px;
+      display: inline-block;
       
       &:hover {
         cursor: pointer;
@@ -18,7 +17,8 @@
     }
 
     .active {
-      background-color: $grey-color-light;
+      // background-color: $grey-color-light;
+      text-decoration: underline;
     }
   }
 }

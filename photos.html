@@ -23,13 +23,13 @@ photoswipe: true
   {% assign index = forloop.index %}
   <div
     class="photo"
-    data-full-size="{{ photo.fullsize.path }}"
+    data-full-size="{{ photo.fullsize }}"
     data-uid="{{ index }}"
-    data-title="{{ photo.title }}"
+    data-date="{{ photo.date }}"
     data-tags="{{ photo.tags | join: ',' }}"
   >
     <figure>
-      <img src="{{ photo.thumbnail.path | prepend: site.baseurl }}">
+      <img src="{{ photo.thumbnail | prepend: site.baseurl }}">
     </figure>
   </div>
   {% endfor %}

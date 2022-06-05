@@ -22,6 +22,10 @@ a > i.fa {
   font-size: $big-font-size;
   color: $text-color;
 
+  h1 {
+    font-size: $big-font-size;
+  }
+
   &:visited {
     color: $text-color;
   }
