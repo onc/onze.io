@@ -64,7 +64,7 @@ IEEE Transactions on Visualization and Computer Graphics, 2021
 **C. van Onzenoodt**, [A. Huckauf](https://www.uni-ulm.de/in/psy-allg/team/anke-huckauf/), and [T. Ropinski](https://viscom.uni-ulm.de/members/timo-ropinski/)\
 Computers & Graphics, 2020
 
-**Evaluating the Influence of Stereoscopy on Cluster Perception in Scatterplots**
+**Evaluating the Influence of Stereoscopy on Cluster Perception in Scatterplots**\
 **C. van Onzenoodt**, J. Kreiser, D. Heer, and [T. Ropinski](https://viscom.uni-ulm.de/members/timo-ropinski/)\
 Annual Conference of the Swedish Computer Graphics Association, 2017
 
