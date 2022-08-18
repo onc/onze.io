@@ -4,10 +4,10 @@ layout: default
 title: CV
 permalink: /cv/
 ---
-My research focuses on making complex data comprehensible to humans. 
-I'm particularly interested in (semi-) automatic approaches to help creating visualization that help to find new insights.
-To do so, I'm not only developing new visualizations, but also try to optimize existing techniques.
-I investigating strengths and weaknesses of encodings to guide visualization experts as well as developing new algorithms that can even be used by non-experts.
+My research focuses on making complex data comprehensible to humans.
+I’m particularly interested in (semi-) automatic approaches to help create visualizations that help find new insights.
+To do so, I’m not only developing new visualizations but also trying to optimize existing techniques.
+I investigate the strengths and weaknesses of encodings to guide visualization experts as well as develop new algorithms that can even be used by non-experts.
 
 <a class="cv-list-icon" href="mailto:c.onzenoodt@posteo.de" target="_blank"><i class="fa fa-envelope"></i> c.onzenoodt@posteo.de</a>
 <a class="cv-list-icon" href="https://github.com/onc" target="_blank"><i class="fa fa-github"></i>github.com/onc</a>
