@@ -10,8 +10,8 @@ photoswipe: true
     {% for photo in site.data.photos %}
       {% assign tags = tags | concat: photo.tags %}
     {% endfor %}
-    {% assign tags = tags | uniq %}
 
+    {% assign tags = tags | uniq %}
     {% for tag in tags %}
       <span class="tag" data-uid="{{ tag }}">#{{ tag }}</span>
     {% endfor %}
@@ -19,19 +19,20 @@ photoswipe: true
 </div>
 
 <div id="gallery">
-  {% for photo in site.data.photos %}
-  {% assign index = forloop.index %}
-  <div
-    class="photo"
-    data-full-size="{{ photo.fullsize }}"
-    data-uid="{{ index }}"
-    data-date="{{ photo.date }}"
-    data-tags="{{ photo.tags | join: ',' }}"
-  >
-    <figure>
-      <img src="{{ photo.thumbnail | prepend: site.baseurl }}">
-    </figure>
-  </div>
+  {% assign photos = site.data.photos | sort: 'date' | reverse %}
+  {% for photo in photos %}
+    {% assign index = forloop.index %}
+    <div
+      class="photo"
+      data-full-size="{{ photo.fullsize }}"
+      data-uid="{{ index }}"
+      data-date="{{ photo.date }}"
+      data-tags="{{ photo.tags | join: ',' }}"
+    >
+      <figure>
+        <img src="{{ photo.thumbnail | prepend: site.baseurl }}">
+      </figure>
+    </div>
   {% endfor %}
 </div>
 
