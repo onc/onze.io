@@ -7,6 +7,21 @@ a > i.fa {
   color: $grey-color;
 }
 
+.cv-list-icon {
+  i.fa {
+    color: $brand-color;
+    margin-left: 5px;
+  }
+
+  &:hover {
+    text-decoration: none;
+    
+    i.fa {
+      color: $text-color;
+    }
+  }
+}
+
 .site-header {
   #avatar-hexagon {
     width: $spacing-unit * 12;
