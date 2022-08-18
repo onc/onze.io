@@ -1,9 +1,9 @@
 ---
+order: 0
 layout: default
 title: About
 permalink: /about/
 ---
-
 Hey! My name is Christian and I am a Ph. D. student at Ulm University.
 In my research I try to make big and complex data comprehensible.
 
