@@ -1,10 +1,11 @@
 # Site settings
-title: Christian van Onzenoodt // onze
-email: onze@onze.io
+title: Christian van Onzenoodt
+email: c.onzenoodt@posteo.de
 description: Christian van Onzenoodt
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://onze.io" # the base hostname & protocol for your site
 instagram_username: onzeotherhand
+scholar_url: scholar.google.com/citations?user=9wi8dSgAAAAJ&hl=en
 git_url: github.com/onc
 
 collections:

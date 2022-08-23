@@ -9,9 +9,31 @@ I’m particularly interested in (semi-) automatic approaches to help create vis
 To do so, I’m not only developing new visualizations but also trying to optimize existing techniques.
 I investigate the strengths and weaknesses of encodings to guide visualization experts as well as develop new algorithms that can even be used by non-experts.
 
-<a class="cv-list-icon" href="mailto:c.onzenoodt@posteo.de" target="_blank"><i class="fa fa-envelope"></i> c.onzenoodt@posteo.de</a>
-<a class="cv-list-icon" href="https://github.com/onc" target="_blank"><i class="fa fa-github"></i>github.com/onc</a>
-<a class="cv-list-icon" href="https://scholar.google.com/citations?user=9wi8dSgAAAAJ&hl=en" target="_blank"><i class="fa fa-google"></i> Scholar</a>
+<ul class="contact-list">
+  {% if site.email %}
+  <li>
+    {% include icon-mail.html username=site.email %}
+  </li>
+  {% endif %}
+
+  {% if site.git_url %}
+  <li>
+    {% include icon-git.html git_url=site.git_url %}
+  </li>
+  {% endif %}
+
+  {% if site.twitter_username %}
+  <li>
+    {% include icon-twitter.html username=site.twitter_username %}
+  </li>
+  {% endif %}
+
+  {% if site.scholar_url %}
+  <li>
+    {% include icon-scholar.html username=site.scholar_url %}
+  </li>
+  {% endif %}
+</ul>
 
 ## Education
 
