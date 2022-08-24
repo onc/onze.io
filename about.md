@@ -4,6 +4,8 @@ layout: default
 title: About
 permalink: /about/
 ---
+<img class="big-avatar" src="/assets/images/avatar-big.jpg" />
+
 Hey! My name is Christian and I am a Ph. D. student at Ulm University.
 In my research I try to make big and complex data comprehensible.
 

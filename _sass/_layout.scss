@@ -22,6 +22,12 @@ a > i.fa {
   }
 }
 
+.big-avatar {
+  width: 80%;
+  display: block;
+  margin: $spacing-unit auto;
+}
+
 .site-header {
   #avatar-hexagon {
     width: $spacing-unit * 12;
