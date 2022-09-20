@@ -22,15 +22,9 @@ I investigate the strengths and weaknesses of encodings to guide visualization e
   </li>
   {% endif %}
 
-  {% if site.twitter_username %}
-  <li>
-    {% include icon-twitter.html username=site.twitter_username %}
-  </li>
-  {% endif %}
-
   {% if site.scholar_url %}
   <li>
-    {% include icon-scholar.html username=site.scholar_url %}
+    {% include icon-scholar.html scholar_url=site.scholar_url %}
   </li>
   {% endif %}
 </ul>
