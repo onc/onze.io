@@ -55,6 +55,14 @@ Supervised by Alexander Raschke
 Jan 2018 - Present\
 Supervised student theses and projects, and co-taught lectures and seminars.
 
+**Scientific Assistant (part-time)**\
+Ulm University | Mar 2017 - Dec 2017\
+Development of a framework for the lecture course "Game Engine Technologies** in C++.
+
+**Student Assistant**\
+Ulm University | Nov 2012 - Feb 2017\
+Student Assistant in various courses: Programming of Systems, 3D Computer Graphics, Web Engineering, Game Engine Technologies, Basics of Operating Systems.
+
 ## Publications
 
 **Learning Human Viewpoint Preferences from Sparsely Annotated Models**
