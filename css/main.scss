@@ -31,16 +31,15 @@ $on-palm:              600px;
 $on-laptop:            800px;
 
 @mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
+    @media screen and (max-width: $device) {
+        @content;
+    }
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "base",
-  "photo-gallery",
-  "layout",
-  "syntax-highlighting",
-  "font-awesome/font-awesome"
+    "base",
+    "photo-gallery",
+    "layout",
+    "font-awesome/font-awesome"
 ;
