@@ -68,18 +68,37 @@ a > i.fa {
 }
 
 .contact-list {
-  text-align: center;
-  margin-bottom: $small-spacing-unit;
-  margin-top: $small-spacing-unit;
+    text-align: center;
+    margin-bottom: $small-spacing-unit;
+    margin-top: $small-spacing-unit;
 
-  li {
-    margin: $small-spacing-unit;
-    display: inline;
+    li {
+        margin: $small-spacing-unit;
+        display: inline;
 
-    a {
-      display: inline-block;
+        a {
+            display: inline-block;
+        }
     }
-  }
+}
+
+@media only screen and (max-width: 800px) {
+    .contact-list {
+        text-align: left;
+        margin-bottom: $small-spacing-unit;
+        margin-top: $small-spacing-unit;
+        margin-left: 0;
+
+        li {
+            margin: 0;
+            display: block;
+
+            a {
+                display: inline-block;
+            }
+        }
+    }
+
 }
 
 .post-list {
