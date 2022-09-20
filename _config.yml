@@ -7,6 +7,7 @@ url: "https://onze.io" # the base hostname & protocol for your site
 instagram_username: onzeotherhand
 scholar_url: scholar.google.com/citations?user=9wi8dSgAAAAJ&hl=en
 git_url: github.com/onc
+linkedin_url: www.linkedin.com/in/christian-van-onzenoodt-21420024a/
 
 collections:
   projects:

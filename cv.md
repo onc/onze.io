@@ -27,6 +27,12 @@ I investigate the strengths and weaknesses of encodings to guide visualization e
     {% include icon-scholar.html scholar_url=site.scholar_url %}
   </li>
   {% endif %}
+
+  {% if site.linkedin_url %}
+  <li>
+    {% include icon-linkedin.html linkedin_url=site.linkedin_url %}
+  </li>
+  {% endif %}
 </ul>
 
 ## Education
