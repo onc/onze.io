@@ -38,7 +38,7 @@ I investigate the strengths and weaknesses of encodings to guide visualization e
 ## Education
 
 **Ph. D. in Computer Science at Ulm University**\
-Jan 2018 - expected Dec 2022\
+Jan 2018 - Feb 2023\
 Supervised by Timo Ropinski
 
 **M. Sc. in Media Informatics at Ulm University**\
