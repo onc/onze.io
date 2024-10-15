@@ -35,24 +35,14 @@ I investigate the strengths and weaknesses of encodings to guide visualization e
   {% endif %}
 </ul>
 
-## Education
-
-**Ph. D. in Computer Science at Ulm University**\
-Jan 2018 - Feb 2023\
-Supervised by Timo Ropinski
-
-**M. Sc. in Media Informatics at Ulm University**\
-Oct 2014 - Dec 2017\
-Supervised by Timo Ropinski
-
-**B. Sc. in Media Informatics at Ulm University**\
-Oct 2010 - Sep 2014\
-Supervised by Alexander Raschke
-
 ## Positions
 
+**Data Engineer, Liebherr Digital Development Center, Ulm (on-site)**\
+Jul 2013 - Present\
+Supervised student theses and projects, and co-taught lectures and seminars.
+
 **Scientific Assistant, Ulm University**\
-Jan 2018 - Present\
+Jan 2018 - Feb 2023\
 Supervised student theses and projects, and co-taught lectures and seminars.
 
 **Scientific Assistant (part-time)**\
@@ -62,6 +52,20 @@ Development of a framework for the lecture course "Game Engine Technologies** in
 **Student Assistant**\
 Ulm University | Nov 2012 - Feb 2017\
 Student Assistant in various courses: Programming of Systems, 3D Computer Graphics, Web Engineering, Game Engine Technologies, Basics of Operating Systems.
+
+## Education
+
+**Ph. D. in Computer Science, Ulm University**\
+Jan 2018 - Jul 2024\
+Supervised by Timo Ropinski
+
+**M. Sc. in Media Informatics, Ulm University**\
+Oct 2014 - Dec 2017\
+Supervised by Timo Ropinski
+
+**B. Sc. in Media Informatics, Ulm University**\
+Oct 2010 - Sep 2014\
+Supervised by Alexander Raschke
 
 ## Publications
 
