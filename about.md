@@ -6,12 +6,13 @@ permalink: /about/
 ---
 <img class="big-avatar" src="/assets/images/avatar-big.jpg" />
 
-Hey! My name is Christian and I am a Ph. D. student at Ulm University.
-In my research I try to make big and complex data comprehensible.
+Hey! My name is Christian and I love working with data.
+At the moment, I am a Data Engineer at Liebherr Development Center in Ulm, Germany.
+Previously, I was a Ph.D. student at Ulm University, where my research focued on making big and complex data comprehensible. 
 
 In my free time I enjoy cooking and I play table tennis in a local team.
 I like to take pictures with old analog cameras, especially when traveling or hiking.
-Also I just recently learned how to sail a boat.
+Also I like to sail a boat.
 
 <ul class="contact-list">
   {% if site.email %}
