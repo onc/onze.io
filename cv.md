@@ -38,7 +38,7 @@ I investigate the strengths and weaknesses of encodings to guide visualization e
 ## Positions
 
 **Data Engineer, Liebherr Digital Development Center, Ulm (on-site)**\
-Jul 2013 - Present\
+Jul 2023 - Present\
 Supervised student theses and projects, and co-taught lectures and seminars.
 
 **Scientific Assistant, Ulm University**\
